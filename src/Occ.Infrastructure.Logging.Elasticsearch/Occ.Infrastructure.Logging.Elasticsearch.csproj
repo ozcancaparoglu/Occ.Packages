@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Elastic.Serilog.Sinks" Version="9.0.0" />
+      <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="10.0.9" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Occ.Infrastructure.Correlation\Occ.Infrastructure.Correlation.csproj" />
+      <ProjectReference Include="..\Occ.Infrastructure.Logging\Occ.Infrastructure.Logging.csproj" />
+    </ItemGroup>
+
+</Project>
