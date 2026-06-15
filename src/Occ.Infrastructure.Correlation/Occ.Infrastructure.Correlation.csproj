@@ -4,6 +4,8 @@
         <TargetFramework>net10.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <Description>AsyncLocal correlation ID management with Serilog enricher. Propagates X-Correlation-Id across async call chains and into log events.</Description>
+        <PackageTags>correlation-id;serilog;tracing;logging;async</PackageTags>
     </PropertyGroup>
 
     <ItemGroup>

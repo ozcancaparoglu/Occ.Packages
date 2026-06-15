@@ -4,6 +4,8 @@
         <TargetFramework>net10.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <Description>Shared kernel primitives: Result/Error pattern, Entity base class, domain event interfaces, and cross-cutting abstractions for microservices.</Description>
+        <PackageTags>ddd;result;error;domain-events;shared-kernel</PackageTags>
     </PropertyGroup>
 
 </Project>

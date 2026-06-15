@@ -4,22 +4,16 @@
         <TargetFramework>net10.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <Description>Transactional outbox pattern using EF Core, Dapper, and Quartz.NET. Polls and dispatches outbox_messages with exponential-backoff retry and FOR UPDATE SKIP LOCKED (PostgreSQL).</Description>
+        <PackageTags>outbox;transactional-outbox;quartz;dapper;ef-core;messaging;postgres</PackageTags>
     </PropertyGroup>
-
-    <ItemGroup>
-      <Reference Include="Microsoft.EntityFrameworkCore">
-        <HintPath>..\..\..\.nuget\packages\microsoft.entityframeworkcore\10.0.9\lib\net10.0\Microsoft.EntityFrameworkCore.dll</HintPath>
-      </Reference>
-      <Reference Include="Quartz.Extensions.DependencyInjection">
-        <HintPath>..\..\..\.nuget\packages\quartz.extensions.dependencyinjection\3.18.1\lib\net10.0\Quartz.Extensions.DependencyInjection.dll</HintPath>
-      </Reference>
-    </ItemGroup>
 
     <ItemGroup>
       <PackageReference Include="Dapper" Version="2.1.79" />
       <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="10.0.9" />
       <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="10.0.9" />
       <PackageReference Include="Quartz" Version="3.18.1" />
+      <PackageReference Include="Quartz.Extensions.DependencyInjection" Version="3.18.1" />
       <PackageReference Include="Quartz.Extensions.Hosting" Version="3.18.1" />
     </ItemGroup>
 

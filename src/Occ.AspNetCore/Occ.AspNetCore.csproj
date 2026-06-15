@@ -4,13 +4,9 @@
         <TargetFramework>net10.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <Description>ASP.NET Core helpers: minimal API endpoint discovery, global exception handler, correlation ID middleware, and Result-to-HTTP response extensions.</Description>
+        <PackageTags>aspnetcore;minimal-api;endpoint;correlation;result;problem-details</PackageTags>
     </PropertyGroup>
-
-    <ItemGroup>
-        <Reference Include="Microsoft.Extensions.Logging.Abstractions">
-            <HintPath>..\..\..\.nuget\packages\microsoft.extensions.logging.abstractions\10.0.9\lib\net10.0\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
-        </Reference>
-    </ItemGroup>
 
     <ItemGroup>
         <ProjectReference Include="..\Occ.Infrastructure.Correlation\Occ.Infrastructure.Correlation.csproj"/>

@@ -4,6 +4,8 @@
         <TargetFramework>net10.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <Description>Serilog host configuration with service name, environment, and deferred correlation ID enrichers. Call UseOccLogging() on IHostBuilder.</Description>
+        <PackageTags>serilog;logging;enricher;correlation;hosting</PackageTags>
     </PropertyGroup>
 
     <ItemGroup>

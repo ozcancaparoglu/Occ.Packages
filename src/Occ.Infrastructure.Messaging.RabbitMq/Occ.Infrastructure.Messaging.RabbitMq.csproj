@@ -4,6 +4,8 @@
         <TargetFramework>net10.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <Description>RabbitMQ consumer BackgroundService that writes incoming messages to the transactional inbox table. Auto-creates exchange/queue/retry/DLQ topology.</Description>
+        <PackageTags>rabbitmq;messaging;inbox;consumer;background-service</PackageTags>
     </PropertyGroup>
 
     <ItemGroup>

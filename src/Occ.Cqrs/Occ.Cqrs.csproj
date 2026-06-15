@@ -4,6 +4,8 @@
         <TargetFramework>net10.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <Description>CQRS interfaces (ICommand, IQuery, handlers) with automatic FluentValidation and Serilog logging decorators registered via Scrutor.</Description>
+        <PackageTags>cqrs;command;query;fluent-validation;decorator;scrutor</PackageTags>
     </PropertyGroup>
 
     <ItemGroup>

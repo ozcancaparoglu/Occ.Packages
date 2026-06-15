@@ -4,6 +4,8 @@
         <TargetFramework>net10.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <Description>EF Core DbContext base that automatically dispatches domain events collected on Entity instances after SaveChangesAsync.</Description>
+        <PackageTags>ddd;domain-events;ef-core;entity-framework;dispatcher</PackageTags>
     </PropertyGroup>
 
     <ItemGroup>

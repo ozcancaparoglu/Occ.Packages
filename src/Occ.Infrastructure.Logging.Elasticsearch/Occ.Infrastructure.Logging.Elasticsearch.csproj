@@ -4,6 +4,8 @@
         <TargetFramework>net10.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <Description>Elasticsearch sink add-on for Occ.Infrastructure.Logging. Ships structured logs to ECS data streams (logs-occ.{service}-{env}) via Elastic.Serilog.Sinks.</Description>
+        <PackageTags>serilog;elasticsearch;ecs;logging;elastic</PackageTags>
     </PropertyGroup>
 
     <ItemGroup>

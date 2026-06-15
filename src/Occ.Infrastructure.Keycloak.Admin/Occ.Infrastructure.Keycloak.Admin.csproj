@@ -4,6 +4,8 @@
         <TargetFramework>net10.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <Description>Keycloak Admin REST API client for user registration, realm role and client-role permission management, group assignments, and token operations.</Description>
+        <PackageTags>keycloak;admin;user-management;roles;permissions;groups</PackageTags>
     </PropertyGroup>
 
     <ItemGroup>

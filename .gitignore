@@ -7,3 +7,5 @@ riderModule.iml
 /*.suo
 /*.user
 /*.userosscache
+CLAUDE.md
+Directory.Build.props
